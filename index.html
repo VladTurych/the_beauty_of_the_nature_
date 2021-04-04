@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+   <nav class="navbar fixed-top align-items-center py-lg-3 py-md-1 nav">
+      <div class="container">
+      <a class="navbar-brand" href="#">TRAVEL</a>
+        <ul class="navbar nav-content__links">
+          <li class="nav-item">
+            <a class="nav-link" href="#"  data-after="HOME">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"  data-after="BLOG" >BLOG</a>
+          </li>
+          <li class="nav-item"  >
+            <a class="nav-link" href="#" data-after="DESTINATION">DESTINATION</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" href="#" data-after="REVIEW">REVIEW</a>
+          </li>  <li class="nav-item" >
+            <a class="nav-link" href="#"data-after="FEATURE" >FEATURE</a>
+          </li>  <li class="nav-item" >
+            <a class="nav-link" href="#" data-after="CONTACT">CONTACT</a>
+          </li>
+        </ul>
+        <div class="hamburger"><div class="bar"></div></div>
+   </div>
+    </nav>
+ <section class="home">
+      <video src="../the third one/Pexels Videos 2169880_Trim.mp4" class="header___video" autoplay='true' loop='true' muted='true' type="video/mp4" class="embed-responsive" ></video>
+      <div class="container home__content">
+         <div class="col-md-6 col-10 mr-auto" >
+            <h2 class="home__title"><span>Never Stop Exploring</span><br><span>This Unusual World</span></h2>
+            <p class="home__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid consectetur est expedita recusandae cumque fugiat id deleniti accusamus sunt, vero reiciendis rerum esse, blanditiis Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <button href="#" class="home__btn">Explore</button>
+         </div>
+      </div>
+      <div class="overlay"></div>
+   </section> 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script>
+    $(document).ready(function () {
+      $('.hamburger').click(function () {
+        $(this).toggleClass('active');
+        $('.nav-content__links').toggleClass('opened')
+      });
+    });
+  </script>
+</html>
